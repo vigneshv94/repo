@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "My First Component"
+  description: "This is a component"
+  annotations:
+    github.com/project-slug: test/repo
+    backstage.io/techdocs-ref: url: https://github.com/test/repo
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "vignesh"

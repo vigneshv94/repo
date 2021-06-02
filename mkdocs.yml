@@ -1,0 +1,8 @@
+site_name: "My First Component"
+site_description: "This is a component"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
